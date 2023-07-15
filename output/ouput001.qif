@@ -1,0 +1,31 @@
+!Type:Bank
+D06/06/22
+MSome memo
+T123.12
+PSome payee
+^
+D16/09/22
+MSome memo
+T-123.12
+PSome payee
+^
+D27/11/22
+MSome memo
+T-9.99
+PSome payee
+^
+D05/01/23
+MSome memo
+T9.99
+PSome payee
+^
+D18/02/23
+MSome memo
+T123.12
+PSome payee
+^
+D21/03/23
+MSome memo
+T123.12
+PSome payee
+^
