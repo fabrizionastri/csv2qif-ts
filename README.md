@@ -1,4 +1,4 @@
-# CSV to QIF Converter
+# CSV to QIF Converter in TypeScript
 
 This is a utility for converting CSV files into QIF (Quicken Interchange Format) files. It's implemented in TypeScript and runs as a Node.js script.
 
@@ -39,6 +39,12 @@ Arguments:
 - if one argument is provided, the utility will look for a file with that name in the current directory, and write the output to a file named `output.qif` in the current directory.
 - if two arguments are provided, the utility will look for a file with the first name in the current directory, and write the output to a file with the second name in the current directory.
 
+Example with 2 arguments:
+
+```
+ts-node csv2qif.ts .\input\input001.csv .\output\ouput001.qif
+```
+
 ## CSV Format
 
 The CSV file should be formatted as follows:
@@ -77,3 +83,7 @@ Msome memo
 - `^`: end of the transaction record.
 
 Each field begins with a single-letter code, followed by the data for that field. Transaction records are separated by caret (`^`) characters.
+
+## Prefer using Python ?
+
+If you prefer using TypeScript, check out [csv2qif-ts](https://github.com/fabrizionastri/csv2qif-TS)
